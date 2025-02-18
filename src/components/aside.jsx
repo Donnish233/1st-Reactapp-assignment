@@ -7,7 +7,8 @@ export default function Aside() {
         <div className="sect">
           <h2>Filters </h2>
           <Icon id="rot" icon="mage:filter" width={24} height={24} />
-        </div>
+            </div>
+            <hr />
         <ol className="filters">
           <div className="sect">
             <li className="filter">T-shirts</li>
@@ -29,17 +30,20 @@ export default function Aside() {
             <li className="filter">Jeans</li>
             <Icon className="shift" icon="lucide:chevron-right" />
           </div>
-        </ol>
+            </ol>
+            <hr />
         <div className="sect">
           <h2>Price</h2>
           <Icon className="shift" icon="lucide:chevron-right" />
-        </div>
+            </div>
+            <hr />
         <div>
           <h2>Color</h2>
           <div>
             <div className=""></div>
           </div>
-        </div>
+            </div>
+            <hr />
         <div>
           <h2>Dress Style</h2>
           <ol className="filters">

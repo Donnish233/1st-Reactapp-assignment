@@ -13,6 +13,7 @@ function App() {
         </p>
         <div className="frame">x</div>
       </div>
+      <main>
       <header>
         <h1>SHOP.CO</h1>
         <nav>
@@ -32,7 +33,11 @@ function App() {
           <Icon icon="pajamas:profile" width={25} height={25} />
         </div>
       </header>
+      <hr />
       <Aside />
+      <div className='Casual' id='class'>
+        <h2>Casual</h2>
+      </div>
       <div className="Casual">
         <ProductCard
           image="public/Images/products/prod1.png"
@@ -92,7 +97,8 @@ function App() {
           rating={5}
           price={80}
         />
-      </div>
+        </div>
+        </main>
     </>
   );
 }
